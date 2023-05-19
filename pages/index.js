@@ -1138,7 +1138,7 @@ export default function Home({ publications }) {
                 imgHeight={"666"}
                 imgSrc={"/projects/quiz.png"}
                 liveLink={"https://quizapplication-5b12b.web.app/login"}
-                repoLink={"https://github.com/ismaeli34/AngularQuizApplication"}
+                repoLink={"https://github.com/ismaeli34/quiz-springboot-app"}
                 stack={
                   <>
                   <Icon
