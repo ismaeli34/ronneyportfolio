@@ -976,7 +976,7 @@ export default function Home({ publications }) {
                 flexDirection={`flex-col lg:flex-row-reverse`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/quizapp_crop.gif"}
+                imgSrc={"/projects/quiz-app-crop-ff-2.gif"}
                 liveLink={"https://quizapplication-5b12b.web.app/login"}
                 repoLink={"https://github.com/ismaeli34/quiz-springboot-app"}
                 stack={
