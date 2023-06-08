@@ -976,7 +976,7 @@ export default function Home({ publications }) {
                 flexDirection={`flex-col lg:flex-row-reverse`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/quiz-app-crop-ff-2.gif"}
+                imgSrc={"/projects/quiz.png"}
                 liveLink={"https://quizapplication-5b12b.web.app/login"}
                 repoLink={"https://github.com/ismaeli34/quiz-springboot-app"}
                 stack={
@@ -1137,7 +1137,7 @@ export default function Home({ publications }) {
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/ecommerce-crop.gif"}
+                imgSrc={"/projects/e-commerce.png"}
                 liveLink={null}
                 repoLink={"https://github.com/ismaeli34/e-commerce-springboot-app"}
                 stack={
