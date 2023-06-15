@@ -638,8 +638,8 @@ export default function Home({ publications }) {
               <div className="flex flex-col-reverse items-start w-full md:flex-row">
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
                   <p className="text-lg">
-                    Hello! I am Ronney and I am a Fullstack Developer
-                      from India living in Germany.
+                    Hello! I am Ronney and I am a Fullstack Developer.
+                     
                   </p>
 
                   <p className="text-lg">
@@ -672,7 +672,7 @@ export default function Home({ publications }) {
                 </div>
                 <div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
                   <Image
-                    src="/background_white.jpeg"
+                    src="/software_developer.gif"
                     className="overflow-hidden rounded-md"
                     width={890}
                     height={890}
@@ -969,7 +969,7 @@ export default function Home({ publications }) {
 
                           {/* Project One */}
               <FeaturedProjectCard
-                title={"Quiz Application"}
+                title={"Exam portal Application"}
                 status={" Just Launched"}
                 description={`This application can be used for educational purposes, such as testing students' knowledge or evaluating their progress, or for entertainment.`}
                 float={`right-0`}
@@ -1130,7 +1130,7 @@ export default function Home({ publications }) {
             <div className="flex flex-col w-full mb-12">
               {/* Project Two */}
               <FeaturedProjectCard
-                title={"E-commerce Application"}
+                title={"EasyCart Application"}
                 status={"Join the Waitlist"}
                 description={`This ecommerce application is a Angular project that allows businesses to sell products or services online through a website or mobile application.`}
                 float={`right-0`}
