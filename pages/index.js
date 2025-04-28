@@ -1302,7 +1302,7 @@ export default function Home({ publications }) {
                 imgWidth={"1366"}
                 imgHeight={"666"}
                 imgSrc={"/projects/job_search.png"}
-                liveLink={null}
+                liveLink={"https://job-portal-naukri-angular.vercel.app/register"}
                 repoLink={"https://github.com/ismaeli34/job-portal-naukri-angular"}
                 stack={
 
