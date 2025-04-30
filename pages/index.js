@@ -1457,168 +1457,335 @@ export default function Home({ publications }) {
                 }
               />
 
-
-              {/* Project Three */}
-              <FeaturedProjectCard
-                title={"EasyCart Application"}
-                status={"Join the Waitlist"}
-                description={`This ecommerce application is a Angular project that allows businesses to sell products or services online through a website or mobile application.`}
+<FeaturedProjectCard
+                title={"Real Estate Angular Project"}
+                status={"Open Source"}
+                description={`It is user-friendly web application developed using Angular, designed to simplify the process of buying and renting properties. The application features a responsive UI with advanced search and filter options for users to browse listings based on location, price, property type, and amenities.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/e-commerce.png"}
+                imgSrc={"/projects/real_estate.png"}
                 liveLink={null}
-                repoLink={"https://github.com/ismaeli34/e-commerce-springboot-app"}
+                repoLink={"https://github.com/ismaeli34/real-estate-angular-miniproject"}
                 stack={
+
                   <>
-                    <Icon
-                      IconType={Html}
-                      title="HTML"
-                      columnSizing={"w-auto"}
-                      width={"w-6"}
-                      height={"h-6"}
-                      flexDirection={"flex-row"}
-                      padding={"p-0"}
-                      titleMargins={"my-0 ml-1"}
-                      titleSize={"text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-3"}
-                      textTransform={"uppercase"}
-                      fixedHeight={"h-auto"}
-                    />
+                  <Icon
+                    IconType={Html}
+                    title="HTML"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
 
-                    <Icon
-                      IconType={Css}
-                      title="Css"
-                      columnSizing={"w-auto"}
-                      width={"w-6"}
-                      height={"h-6"}
-                      flexDirection={"flex-row"}
-                      padding={"p-0"}
-                      titleMargins={"my-0 ml-1"}
-                      titleSize={"text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-3"}
-                      textTransform={"uppercase"}
-                      fixedHeight={"h-auto"}
-                    />
-
-                    <Icon
-                      IconType={Angular}
-                      title="Angular"
-                      columnSizing={"w-auto"}
-                      width={"w-6"}
-                      height={"h-6"}
-                      flexDirection={"flex-row"}
-                      padding={"p-0"}
-                      titleMargins={"my-0 ml-1"}
-                      titleSize={"text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-3"}
-                      textTransform={"uppercase"}
-                      fixedHeight={"h-auto"}
-                    />
+                  <Icon
+                    IconType={Css}
+                    title="Css"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
 
 <Icon
-                      IconType={Java}
-                      title="Java"
-                      columnSizing={"w-auto"}
-                      width={"w-6"}
-                      height={"h-6"}
-                      flexDirection={"flex-row"}
-                      padding={"p-0"}
-                      titleMargins={"my-0 ml-1"}
-                      titleSize={"text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-3"}
-                      textTransform={"uppercase"}
-                      fixedHeight={"h-auto"}
-                    />
+                    IconType={Bootstrap}
+                    title="Bootstrap"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                  <Icon
+                    IconType={Angular}
+                    title="Angular"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                  <Icon
+                    IconType={Java}
+                    title="Java"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+              <Icon
+                    IconType={Spring}
+                    title="Spring"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                
+
+                  <Icon
+                    IconType={MongoDb}
+                    title="MongoDb"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
 
                 <Icon
-                      IconType={Spring}
-                      title="Spring"
-                      columnSizing={"w-auto"}
-                      width={"w-6"}
-                      height={"h-6"}
-                      flexDirection={"flex-row"}
-                      padding={"p-0"}
-                      titleMargins={"my-0 ml-1"}
-                      titleSize={"text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-3"}
-                      textTransform={"uppercase"}
-                      fixedHeight={"h-auto"}
-                    />
+                    IconType={Typescript}
+                    title="Typescript"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
 
-                    <Icon
-                      IconType={Bootstrap}
-                      title="Bootstrap"
-                      columnSizing={"w-auto"}
-                      width={"w-6"}
-                      height={"h-6"}
-                      flexDirection={"flex-row"}
-                      padding={"p-0"}
-                      titleMargins={"my-0 ml-1"}
-                      titleSize={"text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-3"}
-                      textTransform={"uppercase"}
-                      fixedHeight={"h-auto"}
-                    />
-
-                    <Icon
-                      IconType={Mysql}
-                      title="Mysql"
-                      columnSizing={"w-auto"}
-                      width={"w-6"}
-                      height={"h-6"}
-                      flexDirection={"flex-row"}
-                      padding={"p-0"}
-                      titleMargins={"my-0 ml-1"}
-                      titleSize={"text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-3"}
-                      textTransform={"uppercase"}
-                      fixedHeight={"h-auto"}
-                    />
-
-<Icon
-                      IconType={Typescript}
-                      title="Typescript"
-                      columnSizing={"w-auto"}
-                      width={"w-6"}
-                      height={"h-6"}
-                      flexDirection={"flex-row"}
-                      padding={"p-0"}
-                      titleMargins={"my-0 ml-1"}
-                      titleSize={"text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-3"}
-                      textTransform={"uppercase"}
-                      fixedHeight={"h-auto"}
-                    />
-
-                    <Icon
-                      IconType={Docker}
-                      title="Docker"
-                      columnSizing={"w-auto"}
-                      width={"w-6"}
-                      height={"h-6"}
-                      flexDirection={"flex-row"}
-                      padding={"p-0"}
-                      titleMargins={"my-0 ml-1"}
-                      titleSize={"text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-3"}
-                      textTransform={"uppercase"}
-                      fixedHeight={"h-auto"}
-                    />
-                  </>
+                  <Icon
+                    IconType={Firebase}
+                    title="Firebase"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+                </>
+                 
                 }
               />
-            
+              <FeaturedProjectCard
+                title={"OutfitOrbit"}
+                status={"Open Source"}
+                description={`This angular application is designed to facilitate the buying and selling of clothing and accessories. These applications provide a virtual storefront for brands, ranging from global retailers to small boutique labels, enabling them to showcase their products to a wider audience without the need for a physical presence.`}
+                float={`right-0`}
+                flexDirection={`flex-col lg:flex-row`}
+                imgWidth={"1366"}
+                imgHeight={"666"}
+                imgSrc={"/projects/modern_ecommerce.png"}
+                liveLink={null}
+                repoLink={"https://github.com/ismaeli34/zalando-ecommerce-angular"}
+                stack={
+
+                  <>
+                  <Icon
+                    IconType={Html}
+                    title="HTML"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                  <Icon
+                    IconType={Css}
+                    title="Css"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+<Icon
+                    IconType={Bootstrap}
+                    title="Bootstrap"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                  <Icon
+                    IconType={Angular}
+                    title="Angular"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                  <Icon
+                    IconType={Java}
+                    title="Java"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+              <Icon
+                    IconType={Spring}
+                    title="Spring"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                
+
+                  <Icon
+                    IconType={MongoDb}
+                    title="MongoDb"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                <Icon
+                    IconType={Typescript}
+                    title="Typescript"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                  <Icon
+                    IconType={Firebase}
+                    title="Firebase"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+                </>
+                 
+                }
+              />
+
+
+
 
               {/* Project Three */}
               <FeaturedProjectCard

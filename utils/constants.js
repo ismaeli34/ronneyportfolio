@@ -40,6 +40,15 @@ export const projects = [
   }
 
 ,
+
+{
+  title: "EasyCart Application",
+  overview: "This ecommerce application is a Angular project that allows businesses to sell products or services online through a website or mobile application.",
+  stack: ["Angular", "Java", "Html", "Css","Bootstrap"],
+  link: null,
+  repo: "https://github.com/ismaeli34/e-commerce-springboot-app",
+  isSiteLive: true,
+}
   // {
   //   title: "Quotr",
   //   overview:
