@@ -982,7 +982,7 @@ export default function Home({ publications }) {
               <FeaturedProjectCard
                 title={"Exam portal Application"}
                 status={" Just Launched"}
-                description={`This application can be used for educational purposes, such as testing students' knowledge or evaluating their progress, or for entertainment.`}
+                description={`This application can be used for educational purposes, such as testing students' knowledge or evaluating their progress, or for entertainment. The frontend is built using Angular, while the backend is developed using Spring Boot with Java.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row-reverse`}
                 imgWidth={"1366"}
@@ -1143,7 +1143,7 @@ export default function Home({ publications }) {
                      <FeaturedProjectCard
                 title={"Hyper Local Ecommerce"}
                 status={"Open Source"}
-                description={`This application is an online platform that facilitates the buying and selling of products or services within a specific localized area.`}
+                description={`This application is an online platform that facilitates buying and selling products or services within a local area. It features a dynamic frontend built with React.js and a robust, scalable backend developed using Spring Boot and Java, ensuring secure and efficient transactions between buyers and sellers.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
@@ -1798,7 +1798,7 @@ export default function Home({ publications }) {
               <FeaturedProjectCard
                 title={"OutfitOrbit"}
                 status={"Open Source"}
-                description={`This angular application is designed to facilitate the buying and selling of clothing and accessories. These applications provide a virtual storefront for brands, ranging from global retailers to small boutique labels, enabling them to showcase their products to a wider audience without the need for a physical presence.`}
+                description={`This  application is designed to facilitate the buying and selling of clothing and accessories. It provides a virtual storefront for brands, from global retailers to small boutique labels, allowing them to showcase their products to a wider audience without the need for a physical presence. The frontend is developed using Angular, while the backend is built with Spring Boot and Java, ensuring a seamless and efficient user experience.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
@@ -1966,7 +1966,7 @@ export default function Home({ publications }) {
               <FeaturedProjectCard
                 title={"Lucene Search Engine"}
                 status={"Open Source"}
-                description={`It allows users to search and discover information about movies.`}
+                description={`This application allows users to search and discover information about movies using Lucene. The frontend is built with Angular for a dynamic user experience, while the backend is developed using Spring Boot and Java to provide efficient and scalable search functionality.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
