@@ -577,7 +577,14 @@ export default function Home({ publications }) {
         {/* Content Container */}
         <div className="container relative z-30 mx-auto">
           {/* Hero Content */}
-          <main className={`flex-col flex h-screen`} id="home" ref={homeRef}>
+          <main className={`flex-col flex h-screen`} id="home" ref={homeRef}  style={{
+            // backgroundImage: "url('/projects/profile_shaadi.jpg')",
+    // backgroundImage: "url('https://images.pexels.com/photos/670720/pexels-photo-670720.jpeg')",
+    // backgroundSize: 'cover', 
+    // backgroundPosition: 'center', 
+  }}>
+
+            
             {/* Main */}
             <div className="container relative flex flex-col items-start justify-center flex-grow px-0 mx-auto md:px-20 lg:px-24 section">
               <div className="w-full">
@@ -622,6 +629,8 @@ export default function Home({ publications }) {
        
 
             </div>
+
+
 
           </main>
 
@@ -672,7 +681,9 @@ export default function Home({ publications }) {
                 </div>
                 <div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
                   <Image
+                    // src="/projects/profile_shaadi.jpg"
                     src="/software_developer.gif"
+
                     className="overflow-hidden rounded-md"
                     width={890}
                     height={890}
@@ -1077,7 +1088,7 @@ export default function Home({ publications }) {
                     fixedHeight={"h-auto"}
                   />
 
-                  <Icon
+                  {/* <Icon
                     IconType={MongoDb}
                     title="MongoDb"
                     columnSizing={"w-auto"}
@@ -1091,7 +1102,7 @@ export default function Home({ publications }) {
                     marginRight={"mr-3"}
                     textTransform={"uppercase"}
                     fixedHeight={"h-auto"}
-                  />
+                  /> */}
 
 <Icon
                     IconType={Typescript}
@@ -1140,6 +1151,170 @@ export default function Home({ publications }) {
                 imgSrc={"/projects/hyperlocal.png"}
                 liveLink={null}
                 repoLink={"https://github.com/ismaeli34/hyperlocal-ecommerce-react"}
+                stack={
+
+                  <>
+                  <Icon
+                    IconType={Html}
+                    title="HTML"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                  <Icon
+                    IconType={Css}
+                    title="Css"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+<Icon
+                    IconType={Bootstrap}
+                    title="Bootstrap"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                  <Icon
+                    IconType={ReactJs}
+                    title="ReactJs"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                  <Icon
+                    IconType={Java}
+                    title="Java"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+              <Icon
+                    IconType={Spring}
+                    title="Spring"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                
+
+                  {/* <Icon
+                    IconType={MongoDb}
+                    title="MongoDb"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  /> */}
+
+                <Icon
+                    IconType={Javascript}
+                    title="Javascript"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                  <Icon
+                    IconType={Firebase}
+                    title="Firebase"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+                </>
+                 
+                }
+              />
+
+<FeaturedProjectCard
+                title={"Cricket Live Bouncer"}
+                status={"Open Source"}
+                description={`This full-stack app was built using Angular and Spring Boot that delivers live cricket scores, match results, and points tables by web scraping data from public sports websites and displaying it via a clean UI.`}
+                float={`right-0`}
+                flexDirection={`flex-col lg:flex-row`}
+                imgWidth={"1366"}
+                imgHeight={"666"}
+                imgSrc={"/projects/cricket_live.png"}
+                liveLink={null}
+                repoLink={"https://github.com/ismaeli34/CricketLiveBouncer"}
                 stack={
 
                   <>
@@ -1241,7 +1416,7 @@ export default function Home({ publications }) {
 
                 
 
-                  <Icon
+                  {/* <Icon
                     IconType={MongoDb}
                     title="MongoDb"
                     columnSizing={"w-auto"}
@@ -1255,7 +1430,7 @@ export default function Home({ publications }) {
                     marginRight={"mr-3"}
                     textTransform={"uppercase"}
                     fixedHeight={"h-auto"}
-                  />
+                  /> */}
 
                 <Icon
                     IconType={Typescript}
@@ -1405,7 +1580,7 @@ export default function Home({ publications }) {
 
                 
 
-                  <Icon
+                  {/* <Icon
                     IconType={MongoDb}
                     title="MongoDb"
                     columnSizing={"w-auto"}
@@ -1419,7 +1594,7 @@ export default function Home({ publications }) {
                     marginRight={"mr-3"}
                     textTransform={"uppercase"}
                     fixedHeight={"h-auto"}
-                  />
+                  /> */}
 
                 <Icon
                     IconType={Typescript}
@@ -1569,7 +1744,7 @@ export default function Home({ publications }) {
 
                 
 
-                  <Icon
+                  {/* <Icon
                     IconType={MongoDb}
                     title="MongoDb"
                     columnSizing={"w-auto"}
@@ -1583,7 +1758,7 @@ export default function Home({ publications }) {
                     marginRight={"mr-3"}
                     textTransform={"uppercase"}
                     fixedHeight={"h-auto"}
-                  />
+                  /> */}
 
                 <Icon
                     IconType={Typescript}
@@ -1630,7 +1805,7 @@ export default function Home({ publications }) {
                 imgHeight={"666"}
                 imgSrc={"/projects/modern_ecommerce.png"}
                 liveLink={null}
-                repoLink={"https://github.com/ismaeli34/zalando-ecommerce-angular"}
+                repoLink={"https://github.com/ismaeli34/OutfitOrbit"}
                 stack={
 
                   <>
