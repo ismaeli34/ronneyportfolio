@@ -10,6 +10,15 @@ export const projects = [
   },
 
   {
+    title: "Naukri Job Portal",
+    overview: "It's a web application where people looking for jobs (job seekers) and companies looking to hire (employers) connect. The platform is built using Angular, a powerful front-end web framework, ensuring a dynamic, responsive, and user-friendly experience for millions of users daily.",
+    stack: ["Angular", "Java", "Html", "Css","Bootstrap"],
+    link: "https://job-portal-naukri-angular.vercel.app/register",
+    repo: "https://github.com/ismaeli34/job-portal-naukri-angular",
+    isSiteLive: true,
+  },
+
+  {
     title: "Blog Application",
     overview:
       "This blog application is a reactjs web-based project that allows individuals to create, publish, and manage their own blog or website. It provides a user-friendly interface for writing and organizing blog posts, as well as tools for customization, formatting, and publishing content online.",

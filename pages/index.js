@@ -1631,18 +1631,17 @@ export default function Home({ publications }) {
                 }
               />
 
-
 <FeaturedProjectCard
-                title={"Naukri Job Portal"}
+                title={"Food Delivery React App"}
                 status={"Open Source"}
-                description={`It's a web application where people looking for jobs (job seekers) and companies looking to hire (employers) connect. The platform is built using Angular, a powerful front-end web framework, ensuring a dynamic, responsive, and user-friendly experience for millions of users daily.`}
+                description={`A responsive food delivery web application built using React.js for the frontend. It offers users a seamless experience to explore menus, place orders, and Add to Cart in real time.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/job_search.png"}
-                liveLink={"https://job-portal-naukri-angular.vercel.app/register"}
-                repoLink={"https://github.com/ismaeli34/job-portal-naukri-angular"}
+                imgSrc={"/projects/food_delivery.png"}
+                liveLink={"https://food-delivery-react-app-rho.vercel.app/"}
+                repoLink={"https://github.com/ismaeli34/food-delivery-react-app"}
                 stack={
 
                   <>
@@ -1695,8 +1694,8 @@ export default function Home({ publications }) {
                   />
 
                   <Icon
-                    IconType={Angular}
-                    title="Angular"
+                    IconType={ReactJs}
+                    title="ReactJs"
                     columnSizing={"w-auto"}
                     width={"w-6"}
                     height={"h-6"}
@@ -1795,6 +1794,8 @@ export default function Home({ publications }) {
                  
                 }
               />
+
+
 
 <FeaturedProjectCard
                 title={"Real Estate Angular Project"}
