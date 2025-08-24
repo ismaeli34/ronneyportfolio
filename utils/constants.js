@@ -8,6 +8,15 @@ export const projects = [
     repo: "https://github.com/ismaeli34/androidCorona",
     isSiteLive: true,
   },
+  {
+    title: "Real Estate Angular Project",
+    overview: "It is user-friendly web application developed using Angular, designed to simplify the process of buying and renting properties. The application features a responsive UI with advanced search and filter options for users to browse listings based on location, price, property type, and amenities.",
+    stack: ["Angular", "Java", "Spring boot", "MYSQL"],
+    link: null,
+    repo: "https://github.com/ismaeli34/real-estate-angular-miniproject",
+    isSiteLive: true,
+  },
+
 
   {
     title: "Naukri Job Portal",

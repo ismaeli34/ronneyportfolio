@@ -1960,21 +1960,18 @@ export default function Home({ publications }) {
                 }
               />
 
-
-
 <FeaturedProjectCard
-                title={"Real Estate Angular Project"}
+                title={"Movie Management Angular/Java Application"}
                 status={"Open Source"}
-                description={`It is user-friendly web application developed using Angular, designed to simplify the process of buying and renting properties. The application features a responsive UI with advanced search and filter options for users to browse listings based on location, price, property type, and amenities.`}
+                description={`The Movie Management Application is a full-stack web application built using Angular for the frontend and Java Spring Boot for the backend. The project is designed to provide users with a seamless platform to explore, manage, and interact with movie-related data.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/real_estate.png"}
+                imgSrc={"/projects/movieapp.png"}
                 liveLink={null}
-                repoLink={"https://github.com/ismaeli34/real-estate-angular-miniproject"}
+                repoLink={"https://github.com/ismaeli34/MoviesApp"}
                 stack={
-
                   <>
                   <Icon
                     IconType={Html}
@@ -2125,7 +2122,170 @@ export default function Home({ publications }) {
                  
                 }
               />
-          
+
+{/* <FeaturedProjectCard
+                title={"Real Estate Angular Project"}
+                status={"Open Source"}
+                description={`It is user-friendly web application developed using Angular, designed to simplify the process of buying and renting properties. The application features a responsive UI with advanced search and filter options for users to browse listings based on location, price, property type, and amenities.`}
+                float={`right-0`}
+                flexDirection={`flex-col lg:flex-row`}
+                imgWidth={"1366"}
+                imgHeight={"666"}
+                imgSrc={"/projects/real_estate.png"}
+                liveLink={null}
+                repoLink={"https://github.com/ismaeli34/real-estate-angular-miniproject"}
+                stack={ 
+
+                  <>
+                  <Icon
+                    IconType={Html}
+                    title="HTML"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                  <Icon
+                    IconType={Css}
+                    title="Css"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+<Icon
+                    IconType={Bootstrap}
+                    title="Bootstrap"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                  <Icon
+                    IconType={Angular}
+                    title="Angular"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                  <Icon
+                    IconType={Java}
+                    title="Java"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+              <Icon
+                    IconType={Spring}
+                    title="Spring"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                
+
+                  <Icon
+                    IconType={MongoDb}
+                    title="MongoDb"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                <Icon
+                    IconType={Typescript}
+                    title="Typescript"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+
+                  <Icon
+                    IconType={Firebase}
+                    title="Firebase"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  />
+                </>
+                 
+                }
+              /> */}
 
 
 
@@ -2295,7 +2455,7 @@ export default function Home({ publications }) {
               />
             </div>
 
-            {/* Other Projects header */}
+          
             <h2 className="text-4xl text-center">Other Projects</h2>
             <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 mx-auto border-0"></hr>
             <p className="mb-16 text-lg text-center">
