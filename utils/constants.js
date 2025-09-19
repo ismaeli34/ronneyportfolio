@@ -63,6 +63,26 @@ export const projects = [
     isSiteLive: true,
   },
 
+  {
+    title: "SAPUI5 Corona Tracker",
+    overview:
+      "Created a Corona Tracker application using SAPUI5. This project was built to show live COVID-19 data such as total cases, recoveries, and deaths in different countries. The app takes data from an external API and displays it in a simple and user-friendly way.",
+    stack: ["SAPUI5", "JavaScript", "OData/REST API","XML"],
+    link: null,
+    repo: "https://github.com/ismaeli34/SAPUI5-Corona-Tracker",
+    isSiteLive: true,
+  },
+
+  {
+    title: "SAPUI5 Vaccination Tracker",
+    overview:
+      "Developed a Vaccination Tracker application using SAPUI5. The app helps users track vaccination details such as the number of people vaccinated, partially vaccinated, and not vaccinated in different locations. It shows the data in a clear way using charts, tables, and filters.",
+    stack: ["SAPUI5", "JavaScript", "OData/REST API","XML"],
+    link: null,
+    repo: "https://github.com/ismaeli34/SAPUI5-Vaccination-Tracker",
+    isSiteLive: true,
+  },
+
 
   // {
   //   title: "Quotr",
