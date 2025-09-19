@@ -891,22 +891,6 @@ export default function Home({ publications }) {
                 fixedHeight={"h-28"}
               />
 
-              {/* Firebase */}
-{/*               <Icon
-                IconType={Firebase}
-                title="Firebase"
-                width={"w-16"}
-                height={"h-16"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
- */}
               {/* MySQL */}
               <Icon
                 IconType={Mysql}
