@@ -1457,13 +1457,172 @@ export default function Home({ publications }) {
               }
             />
               
+              <FeaturedProjectCard
+                title={"Inventory Managemment System"}
+                status={"Open Source"}
+                description={`Inventory Management System is a full-stack web application built with Angular and Spring Boot to manage products, purchases, sales, suppliers, and categories efficiently. It features an interactive dashboard with real-time analytics, automated inventory updates, and secure user profile management. The system centralizes stock operations, reduces manual errors, and supports data-driven decision-making through scalable RESTful APIs..`}
+                float={`right-0`}
+                flexDirection={`flex-col lg:flex-row`}
+                imgWidth={"1366"}
+                imgHeight={"666"}
+                imgSrc={"/projects/inventory_management.jpg"}
+                liveLink={null}
+                repoLink={"https://github.com/ismaeli34/inventory-management-angular"}
+                stack={
+                  <>
+                    <Icon
+                      IconType={Html}
+                      title="HTML"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Css}
+                      title="Css"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Bootstrap}
+                      title="Bootstrap"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Angular}
+                      title="Angular"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Java}
+                      title="Java"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Spring}
+                      title="Spring"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    {/* <Icon
+                    IconType={MongoDb}
+                    title="MongoDb"
+                    columnSizing={"w-auto"}
+                    width={"w-6"}
+                    height={"h-6"}
+                    flexDirection={"flex-row"}
+                    padding={"p-0"}
+                    titleMargins={"my-0 ml-1"}
+                    titleSize={"text-sm"}
+                    marginBottom={"mb-4"}
+                    marginRight={"mr-3"}
+                    textTransform={"uppercase"}
+                    fixedHeight={"h-auto"}
+                  /> */}
+
+                    <Icon
+                      IconType={Typescript}
+                      title="Typescript"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Firebase}
+                      title="Firebase"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+                  </>
+                }
+              />
 
               <FeaturedProjectCard
                 title={"Cricket Live Bouncer"}
                 status={"Open Source"}
                 description={`This full-stack app was built using Angular and Spring Boot that delivers live cricket scores, match results, and points tables by web scraping data from public sports websites and displaying it via a clean UI.`}
                 float={`right-0`}
-                flexDirection={`flex-col lg:flex-row`}
+                flexDirection={`flex-col lg:flex-row-reverse`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
                 imgSrc={"/projects/cricket_live.png"}
@@ -1623,7 +1782,7 @@ export default function Home({ publications }) {
               status={" Just Launched"}
               description={`This Angular-based church application streamlines administration and worship planning for a Charismatic Pentecostal church, offering role-based access for pastors, leaders, and members. It supports the management of church roles, ministry programs, events, and Spirit-led Sunday services, emphasizing the work of the Holy Spirit through a centralized and user-friendly interface.`}
               float={`right-0`}
-              flexDirection={`flex-col lg:flex-row-reverse`}
+              flexDirection={`flex-col lg:flex-row`}
               imgWidth={"1366"}
               imgHeight={"666"}
               imgSrc={"/projects/el_bethel.png"}
@@ -1783,7 +1942,7 @@ export default function Home({ publications }) {
                 status={"Open Source"}
                 description={`This  application is designed to facilitate the buying and selling of clothing and accessories. It provides a virtual storefront for brands, from global retailers to small boutique labels, allowing them to showcase their products to a wider audience without the need for a physical presence. The frontend is developed using Angular, while the backend is built with Spring Boot and Java, ensuring a seamless and efficient user experience.`}
                 float={`right-0`}
-                flexDirection={`flex-col lg:flex-row`}
+                flexDirection={`flex-col lg:flex-row-reverse`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
                 imgSrc={"/projects/ecommerce_page.png"}
@@ -1943,7 +2102,7 @@ export default function Home({ publications }) {
                 status={"Open Source"}
                 description={`TweetNest is a full-stack web application built using React for the frontend, Java for the core logic, and Spring Boot for the backend, allowing users to post, view, and interact with tweets in real time.`}
                 float={`right-0`}
-                flexDirection={`flex-col lg:flex-row-reverse`}
+                flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
                 imgSrc={"/projects/tweetnest.png"}
@@ -2103,7 +2262,7 @@ export default function Home({ publications }) {
                 status={"Open Source"}
                 description={`A responsive food delivery web application built using React.js for the frontend. It offers users a seamless experience to explore menus, place orders, and Add to Cart in real time.`}
                 float={`right-0`}
-                flexDirection={`flex-col lg:flex-row`}
+                flexDirection={`flex-col lg:flex-row-reverse`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
                 imgSrc={"/projects/food_delivery.png"}
@@ -2265,7 +2424,7 @@ export default function Home({ publications }) {
                 status={"Open Source"}
                 description={`The Movie Management Application is a full-stack web application built using Angular for the frontend and Java Spring Boot for the backend. The project is designed to provide users with a seamless platform to explore, manage, and interact with movie-related data.`}
                 float={`right-0`}
-                flexDirection={`flex-col lg:flex-row-reverse`}
+                flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
                 imgSrc={"/projects/movieapp.png"}
@@ -2590,7 +2749,7 @@ export default function Home({ publications }) {
                 status={"Open Source"}
                 description={`This application allows users to search and discover information about movies using Lucene. The frontend is built with Angular for a dynamic user experience, while the backend is developed using Spring Boot and Java to provide efficient and scalable search functionality.`}
                 float={`right-0`}
-                flexDirection={`flex-col lg:flex-row`}
+                flexDirection={`flex-col lg:flex-row-reverse`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
                 imgSrc={"/projects/lucene.png"}
