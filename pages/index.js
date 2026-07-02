@@ -1456,18 +1456,20 @@ export default function Home({ publications }) {
                 </>
               }
             />
-              
-              <FeaturedProjectCard
-                title={"Inventory Managemment System"}
+
+<FeaturedProjectCard
+                title={"Eagles Church International Dortmund"}
                 status={"Open Source"}
-                description={`Inventory Management System is a full-stack web application built with Angular and Spring Boot to manage products, purchases, sales, suppliers, and categories efficiently. It features an interactive dashboard with real-time analytics, automated inventory updates, and secure user profile management. The system centralizes stock operations, reduces manual errors, and supports data-driven decision-making through scalable RESTful APIs..`}
+                description={`Eagles Church International Dortmund is a Christian community in Dortmund focused on worship, prayer, and fellowship, helping people grow in faith through services and Bible study.
+
+                The website is built using Angular for the frontend, Firebase for backend services, and Tailwind CSS for modern, responsive design...`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/inventory_management.jpg"}
-                liveLink={null}
-                repoLink={"https://github.com/ismaeli34/inventory-management-angular"}
+                imgSrc={"/projects/eagles_new.jpg"}
+                liveLink={"https://eagles-international-dortmund.vercel.app/home"}
+                repoLink={null}
                 stack={
                   <>
                     <Icon
@@ -1616,6 +1618,8 @@ export default function Home({ publications }) {
                   </>
                 }
               />
+              
+      
 
               <FeaturedProjectCard
                 title={"Cricket Live Bouncer"}
@@ -2578,6 +2582,150 @@ export default function Home({ publications }) {
                   </>
                 }
               />
+
+{/* <FeaturedProjectCard
+                title={"Inventory Managemment System"}
+                status={"Open Source"}
+                description={`Inventory Management System is a full-stack web application built with Angular and Spring Boot to manage products, purchases, sales, suppliers, and categories efficiently. It features an interactive dashboard with real-time analytics, automated inventory updates, and secure user profile management. The system centralizes stock operations, reduces manual errors, and supports data-driven decision-making through scalable RESTful APIs..`}
+                float={`right-0`}
+                flexDirection={`flex-col lg:flex-row`}
+                imgWidth={"1366"}
+                imgHeight={"666"}
+                imgSrc={"/projects/inventory_management.jpg"}
+                liveLink={null}
+                repoLink={"https://github.com/ismaeli34/inventory-management-angular"}
+                stack={
+                  <>
+                    <Icon
+                      IconType={Html}
+                      title="HTML"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Css}
+                      title="Css"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Bootstrap}
+                      title="Bootstrap"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Angular}
+                      title="Angular"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Java}
+                      title="Java"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Spring}
+                      title="Spring"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Typescript}
+                      title="Typescript"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Firebase}
+                      title="Firebase"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+                  </>
+                }
+              /> */}
 
               {/* <FeaturedProjectCard
                 title={"Real Estate Angular Project"}
