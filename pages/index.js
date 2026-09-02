@@ -3424,28 +3424,41 @@ export default function Home({ publications }) {
  * @returns props
  */
 export async function getServerSideProps(context) {
-  const res = await fetch("https://api.hashnode.com/", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: "32ab9fe7-0331-4efc-bdb8-5a3e0bfdd9b9",
-    },
-    body: JSON.stringify({
-      query:
-        'query {user(username: "danielcranney") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
-    }),
-  });
-  const publications = await res.json();
+  try {
+    const res = await fetch("https://api.hashnode.com/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: "32ab9fe7-0331-4efc-bdb8-5a3e0bfdd9b9",
+      },
+      body: JSON.stringify({
+        query:
+          'query {user(username: "danielcranney") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
+      }),
+    });
 
-  if (!publications) {
+    if (!res.ok) {
+      return {
+        props: { publications: null },
+      };
+    }
+
+    const text = await res.text();
+    let publications;
+    try {
+      publications = JSON.parse(text);
+    } catch {
+      publications = null;
+    }
+
     return {
-      notFound: true,
+      props: {
+        publications,
+      },
+    };
+  } catch {
+    return {
+      props: { publications: null },
     };
   }
-
-  return {
-    props: {
-      publications,
-    },
-  };
 }
